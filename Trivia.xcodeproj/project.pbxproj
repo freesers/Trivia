@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		1105E4AF21C158190075619D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1105E4AE21C158190075619D /* AppDelegate.swift */; };
-		1105E4B121C158190075619D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1105E4B021C158190075619D /* ViewController.swift */; };
+		1105E4B121C158190075619D /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1105E4B021C158190075619D /* QuestionViewController.swift */; };
 		1105E4B421C158190075619D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1105E4B221C158190075619D /* Main.storyboard */; };
 		1105E4B621C1581A0075619D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1105E4B521C1581A0075619D /* Assets.xcassets */; };
 		1105E4B921C1581A0075619D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1105E4B721C1581A0075619D /* LaunchScreen.storyboard */; };
+		1196612921C2AC54003AA6C5 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1196612821C2AC54003AA6C5 /* Question.swift */; };
+		1196612C21C30E7E003AA6C5 /* QuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1196612B21C30E7E003AA6C5 /* QuestionController.swift */; };
+		119E4A1C21C33FBC00322DA1 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119E4A1B21C33FBC00322DA1 /* ScoreViewController.swift */; };
+		119E4A2621C3451500322DA1 /* LeaderboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119E4A2521C3451500322DA1 /* LeaderboardTableViewController.swift */; };
+		11F63EF021C3DD7500E0C250 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F63EEF21C3DD7500E0C250 /* Result.swift */; };
+		11F63EF221C3E25300E0C250 /* SubmitScoreDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F63EF121C3E25300E0C250 /* SubmitScoreDelegate.swift */; };
+		11F63EF621C3F55000E0C250 /* ServerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F63EF521C3F55000E0C250 /* ServerResult.swift */; };
+		11F63EF821C4028D00E0C250 /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F63EF721C4028D00E0C250 /* ResultController.swift */; };
+		65A42FA18246A4A364FC903B /* Pods_Trivia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7194E05E7CF070F9A31C97 /* Pods_Trivia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1105E4AB21C158190075619D /* Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1105E4AE21C158190075619D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1105E4B021C158190075619D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1105E4B021C158190075619D /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		1105E4B321C158190075619D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1105E4B521C1581A0075619D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1105E4B821C1581A0075619D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1105E4BA21C1581A0075619D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1196612821C2AC54003AA6C5 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		1196612B21C30E7E003AA6C5 /* QuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionController.swift; sourceTree = "<group>"; };
+		119E4A1B21C33FBC00322DA1 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		119E4A2521C3451500322DA1 /* LeaderboardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardTableViewController.swift; sourceTree = "<group>"; };
+		11F63EEF21C3DD7500E0C250 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		11F63EF121C3E25300E0C250 /* SubmitScoreDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitScoreDelegate.swift; sourceTree = "<group>"; };
+		11F63EF521C3F55000E0C250 /* ServerResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerResult.swift; sourceTree = "<group>"; };
+		11F63EF721C4028D00E0C250 /* ResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
+		B04C23E96DCCBD6CC805190F /* Pods-Trivia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trivia.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trivia/Pods-Trivia.release.xcconfig"; sourceTree = "<group>"; };
+		C5869D320C4A005A082B780D /* Pods-Trivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trivia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trivia/Pods-Trivia.debug.xcconfig"; sourceTree = "<group>"; };
+		EF7194E05E7CF070F9A31C97 /* Pods_Trivia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trivia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A42FA18246A4A364FC903B /* Pods_Trivia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +61,8 @@
 			children = (
 				1105E4AD21C158190075619D /* Trivia */,
 				1105E4AC21C158190075619D /* Products */,
+				39EFA078759B063C08EC200A /* Pods */,
+				CD99CC9DD83BB7A6FCC989F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +78,62 @@
 			isa = PBXGroup;
 			children = (
 				1105E4AE21C158190075619D /* AppDelegate.swift */,
-				1105E4B021C158190075619D /* ViewController.swift */,
 				1105E4B221C158190075619D /* Main.storyboard */,
+				11F63EF121C3E25300E0C250 /* SubmitScoreDelegate.swift */,
+				119E4A1E21C3405E00322DA1 /* ViewControllers */,
+				119E4A2021C3407700322DA1 /* Model */,
+				119E4A2421C3409D00322DA1 /* Controller */,
 				1105E4B521C1581A0075619D /* Assets.xcassets */,
 				1105E4B721C1581A0075619D /* LaunchScreen.storyboard */,
 				1105E4BA21C1581A0075619D /* Info.plist */,
 			);
 			path = Trivia;
+			sourceTree = "<group>";
+		};
+		119E4A1E21C3405E00322DA1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1105E4B021C158190075619D /* QuestionViewController.swift */,
+				119E4A1B21C33FBC00322DA1 /* ScoreViewController.swift */,
+				119E4A2521C3451500322DA1 /* LeaderboardTableViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		119E4A2021C3407700322DA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1196612821C2AC54003AA6C5 /* Question.swift */,
+				11F63EEF21C3DD7500E0C250 /* Result.swift */,
+				11F63EF521C3F55000E0C250 /* ServerResult.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		119E4A2421C3409D00322DA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1196612B21C30E7E003AA6C5 /* QuestionController.swift */,
+				11F63EF721C4028D00E0C250 /* ResultController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		39EFA078759B063C08EC200A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5869D320C4A005A082B780D /* Pods-Trivia.debug.xcconfig */,
+				B04C23E96DCCBD6CC805190F /* Pods-Trivia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD99CC9DD83BB7A6FCC989F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF7194E05E7CF070F9A31C97 /* Pods_Trivia.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1105E4BD21C1581A0075619D /* Build configuration list for PBXNativeTarget "Trivia" */;
 			buildPhases = (
+				7207CC1092F686F2E9F94D5F /* [CP] Check Pods Manifest.lock */,
 				1105E4A721C158190075619D /* Sources */,
 				1105E4A821C158190075619D /* Frameworks */,
 				1105E4A921C158190075619D /* Resources */,
+				B2F2FE7FE4FC8A1E7CD9B0A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +204,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7207CC1092F686F2E9F94D5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trivia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2F2FE7FE4FC8A1E7CD9B0A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Trivia/Pods-Trivia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HTMLString/HTMLString.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HTMLString.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trivia/Pods-Trivia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1105E4A721C158190075619D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1105E4B121C158190075619D /* ViewController.swift in Sources */,
+				1196612921C2AC54003AA6C5 /* Question.swift in Sources */,
+				1105E4B121C158190075619D /* QuestionViewController.swift in Sources */,
+				11F63EF821C4028D00E0C250 /* ResultController.swift in Sources */,
+				11F63EF621C3F55000E0C250 /* ServerResult.swift in Sources */,
+				119E4A1C21C33FBC00322DA1 /* ScoreViewController.swift in Sources */,
 				1105E4AF21C158190075619D /* AppDelegate.swift in Sources */,
+				11F63EF021C3DD7500E0C250 /* Result.swift in Sources */,
+				1196612C21C30E7E003AA6C5 /* QuestionController.swift in Sources */,
+				119E4A2621C3451500322DA1 /* LeaderboardTableViewController.swift in Sources */,
+				11F63EF221C3E25300E0C250 /* SubmitScoreDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +409,7 @@
 		};
 		1105E4BE21C1581A0075619D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5869D320C4A005A082B780D /* Pods-Trivia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +428,7 @@
 		};
 		1105E4BF21C1581A0075619D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B04C23E96DCCBD6CC805190F /* Pods-Trivia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
