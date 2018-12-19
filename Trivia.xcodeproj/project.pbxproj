@@ -16,7 +16,7 @@
 		1196612C21C30E7E003AA6C5 /* QuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1196612B21C30E7E003AA6C5 /* QuestionController.swift */; };
 		119E4A1C21C33FBC00322DA1 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119E4A1B21C33FBC00322DA1 /* ScoreViewController.swift */; };
 		119E4A2621C3451500322DA1 /* LeaderboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119E4A2521C3451500322DA1 /* LeaderboardTableViewController.swift */; };
-		11F63EF021C3DD7500E0C250 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F63EEF21C3DD7500E0C250 /* Result.swift */; };
+		11ECF89F21C94FC200855F8A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ECF89E21C94FC200855F8A /* Result.swift */; };
 		11F63EF221C3E25300E0C250 /* SubmitScoreDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F63EF121C3E25300E0C250 /* SubmitScoreDelegate.swift */; };
 		11F63EF621C3F55000E0C250 /* ServerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F63EF521C3F55000E0C250 /* ServerResult.swift */; };
 		11F63EF821C4028D00E0C250 /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F63EF721C4028D00E0C250 /* ResultController.swift */; };
@@ -35,7 +35,7 @@
 		1196612B21C30E7E003AA6C5 /* QuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionController.swift; sourceTree = "<group>"; };
 		119E4A1B21C33FBC00322DA1 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		119E4A2521C3451500322DA1 /* LeaderboardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardTableViewController.swift; sourceTree = "<group>"; };
-		11F63EEF21C3DD7500E0C250 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		11ECF89E21C94FC200855F8A /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		11F63EF121C3E25300E0C250 /* SubmitScoreDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitScoreDelegate.swift; sourceTree = "<group>"; };
 		11F63EF521C3F55000E0C250 /* ServerResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerResult.swift; sourceTree = "<group>"; };
 		11F63EF721C4028D00E0C250 /* ResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				1196612821C2AC54003AA6C5 /* Question.swift */,
-				11F63EEF21C3DD7500E0C250 /* Result.swift */,
+				11ECF89E21C94FC200855F8A /* Result.swift */,
 				11F63EF521C3F55000E0C250 /* ServerResult.swift */,
 			);
 			name = Model;
@@ -262,7 +262,7 @@
 				11F63EF621C3F55000E0C250 /* ServerResult.swift in Sources */,
 				119E4A1C21C33FBC00322DA1 /* ScoreViewController.swift in Sources */,
 				1105E4AF21C158190075619D /* AppDelegate.swift in Sources */,
-				11F63EF021C3DD7500E0C250 /* Result.swift in Sources */,
+				11ECF89F21C94FC200855F8A /* Result.swift in Sources */,
 				1196612C21C30E7E003AA6C5 /* QuestionController.swift in Sources */,
 				119E4A2621C3451500322DA1 /* LeaderboardTableViewController.swift in Sources */,
 				11F63EF221C3E25300E0C250 /* SubmitScoreDelegate.swift in Sources */,

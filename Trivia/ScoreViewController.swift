@@ -17,8 +17,6 @@ class ScoreViewController: UIViewController {
     
     @IBOutlet weak var submitScoreButton: UIButton!
     
-    //var delegate: SubmitScoreDelegate?
-    
     var result: Result!
     
     override func viewDidLoad() {
@@ -39,31 +37,11 @@ class ScoreViewController: UIViewController {
             result = Result(correct: correct, total: total, time: dateString)
         }
     }
-    
-//    func setupDelegate() {
-//        if let navController = tabBarController?.viewControllers?.last as? UINavigationController,
-//            let leaderboardViewController = navController.viewControllers.first as? LeaderboardTableViewController {
-//           // delegate = leaderboardViewController
-//        }
-//        
-//    }
 
     @IBAction func submitScoreButtonTapped(_ sender: Any) {
-//        if let result = result {
-//            delegate?.submit(result: result)
-//        }
-        ResultController.shared.submitScore(result: result)
         
+        // submit score
+        ResultController.shared.submitScore(result: result)
         submitScoreButton.isEnabled = false
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
