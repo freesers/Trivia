@@ -61,8 +61,4 @@ class LeaderboardTableViewController: UITableViewController {
             tableView.deleteRows(at: [indexPath], with: .fade)
         }
     }
-    
-    
-    
-
 }

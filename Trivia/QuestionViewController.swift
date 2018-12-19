@@ -33,8 +33,6 @@ class QuestionViewController: UIViewController {
     var incorrectAnswers = 0
     
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -44,21 +42,21 @@ class QuestionViewController: UIViewController {
         self.answerCButton.layer.cornerRadius = 7.0
         self.answerDButton.layer.cornerRadius = 7.0
         
+        // setup view
         triviaProgress.setProgress(progress, animated: true)
-        
         UIApplication.shared.isNetworkActivityIndicatorVisible = true
+        
+        // load questions
         QuestionController.shared.fetchTriviaQuestions { (questions) in
             if let questions = questions {
                 self.questions = questions
             }
-            
             DispatchQueue.main.async {
                 self.updateUI(with: self.questions) {
                     UIApplication.shared.isNetworkActivityIndicatorVisible = false
                 }
             }
         }
-        
     }
     
     func updateUI(with questions: [Question], completion: @escaping () -> Void) {
@@ -71,20 +69,17 @@ class QuestionViewController: UIViewController {
         // shuffle answers
         let answers = self.randomizeQuestions(correct: questions[index].correctAnswer, incorrect: questions[index].incorrectAnswers)
         
+        // replace special html characters with correct text
         self.answerAButton.setTitle(answers[0].removingHTMLEntities, for: .normal)
         self.answerBButton.setTitle(answers[1].removingHTMLEntities, for: .normal)
         self.answerCButton.setTitle(answers[2].removingHTMLEntities, for: .normal)
         self.answerDButton.setTitle(answers[3].removingHTMLEntities, for: .normal)
 
         triviaProgress.setProgress(progress, animated: true)
-
-        print("Correct \(correctAnswers)")
-        print("Incorrect \(incorrectAnswers)")
-
         completion()
     }
     
-    // arrange questions in random order before setting buttons
+    /// arranges questions in random order before setting buttons
     func randomizeQuestions(correct: String, incorrect: [String]) -> [String] {
         var questionsArray = [String]()
         questionsArray.append(correct)
@@ -93,9 +88,11 @@ class QuestionViewController: UIViewController {
         return questionsArray
     }
     
+    /// checks answer, animates the button and view
     @IBAction func answerButtonTapped(_ sender: UIButton) {
         transformButton(button: sender)
 
+        
         if questionCounter != questions.count - 1 {
             if sender.currentTitle == questions[questionCounter].correctAnswer {
                 correctOrIncorrect()
@@ -110,7 +107,10 @@ class QuestionViewController: UIViewController {
                     self.incorrectAnswers += 1
                 }
             }
-        } else {
+        }
+        
+        // last question
+        else {
             if sender.currentTitle == questions[questionCounter].correctAnswer {
                 correctOrIncorrect()
                 correctAnswers += 1
@@ -121,6 +121,7 @@ class QuestionViewController: UIViewController {
         }
     }
     
+    /// animates the backgroundview green or red
     func correctOrIncorrect(color: UIColor = .green) {
         
         UIView.animate(withDuration: 0.3, animations: {
@@ -132,6 +133,7 @@ class QuestionViewController: UIViewController {
         }
     }
     
+    /// animates the button to indicate pressed
     func transformButton(button: UIButton) {
         UIView.animate(withDuration: 0.3) {
             button.transform = CGAffineTransform(scaleX: 1.5, y: 3)

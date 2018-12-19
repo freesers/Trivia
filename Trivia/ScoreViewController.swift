@@ -21,12 +21,11 @@ class ScoreViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //setupDelegate()
         
+        //  create datestring from formated date
         let dateFormatter = DateFormatter()
         dateFormatter.dateStyle = .short
         dateFormatter.timeStyle = .short
-        
         let date = Date()
         let dateString = dateFormatter.string(from: date)
         
